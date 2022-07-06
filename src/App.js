@@ -16,7 +16,7 @@ function App() {
         'Content-Type': 'application/json'
       }
     });
-    console.log(response);
+    // console.log(response);
     if (response.status === 200) {
       const data = await response.json();
       setQuote(data);
